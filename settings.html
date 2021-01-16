@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Settings</title>
+<link rel="stylesheet" href="settings.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+<script src="settings.js"></script>
+</head>
+<body>
+    <div class="lines"></div>
+    <ul class="list">
+        <li id="header">
+            <div id="settings">Settings</div>
+        </li>
+        <li>
+            <div class="textbox">
+                Color Theme: 
+               <select onchange="changeColorTheme(this)">
+                   <option data-bgcolor-type="white">White</option>
+                   <option data-bgcolor-type="black">Black</option>
+                   <option data-bgcolor-type="custom">Custom</option>
+               </select>
+               <input type="color" class="color-picker" style="display:none;">
+            </div>
+        </li>
+        <li>
+            <div class="textbox">
+                Side Line Color: 
+               <select onchange="changeSideColor(this)">
+                   <option data-sidecolor-type="#ffaa9f">Pale Red</option>
+                   <option data-sidecolor-type="red">Red</option>
+                   <option data-sidecolor-type="white">White</option>
+                   <option data-sidecolor-type="black">Black</option>
+                   <option data-sidecolor-type="custom">Custom</option>
+               </select>
+               <input type="color" class="color-picker" style="display:none;">
+            </div>
+        </li>
+        <li>
+            <div class="textbox">
+                Font Color:
+                <select onchange="changeFontColor(this)">
+                    <option data-fontcolor-type="#555">Davy's Grey</option>
+                    <option data-fontcolor-type="white">White</option>
+                    <option data-fontcolor-type="black">Black</option>
+                    <option data-fontcolor-type="custom">Custom</option>
+                </select>
+                <input type="color" class="color-picker" style="display:none;">
+            </div>
+        </li>
+        <li>
+            <div class="textbox">
+                Font:
+                <select onchange="changeFont(this)">
+                    <option data-font-type="'Indie Flower', cursive">Indie Flower</option>
+                    <option data-font-type="courier, monospace">Courier</option>
+                    <option data-font-type="arial">Arial</option>
+                </select>
+            </div>
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            
+        </li>
+        <li>
+            
+        </li>
+    </ul>
+</body>
+</html>

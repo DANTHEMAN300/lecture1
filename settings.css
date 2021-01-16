@@ -1,0 +1,71 @@
+body, html {
+  margin:0;
+  padding:0;
+  height:100%;
+  font-size:22px;
+  font-family: 'Indie Flower', cursive;
+}
+.list {
+  display:grid;
+  height:100%;
+  grid-template-rows:15% 8.5% 8.5% 8.5% 8.5% 8.5% 8.5% 8.5% 8.5% 8.5% 8.5%;
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 100%;
+  border: 1px solid #dedede;
+  margin:0;
+  border:none;
+}
+.list li {
+  list-style: none;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 60px;
+  position:relative;
+}
+.list li:hover {
+  /* background-color: #f0f0f0; */
+  -webkit-transition: all 0.2s;
+  -moz-transition:    all 0.2s;
+  -ms-transition:     all 0.2s;
+  -o-transition:      all 0.2s;
+}
+.lines {
+  border-left: 1px solid #ffaa9f;
+  border-right: 1px solid #ffaa9f;
+  width: 2px;
+  float: left;
+  height: 495px;
+  margin-left: 40px;
+  position:absolute;
+  height:100%;
+  z-index:1;
+}
+
+#header{
+    box-sizing:border-box;
+}
+
+.textbox{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:100%;
+}
+
+#settings{
+    margin-top:15px;
+}
+
+
+select{
+    border:none;
+    outline:none;
+    font-size:22px;
+    font-family: 'Indie Flower', cursive;
+    color:#555;
+}
+
+.color-picker{
+    display:inline-block;
+}
